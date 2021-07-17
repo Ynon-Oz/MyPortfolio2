@@ -16,21 +16,25 @@
 .About > .Expertise {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
-  align-content: space-between;
-  align-items: center;
+  align-content: stretch;
+  align-items: stretch;
 }
-.About > .Expertise > div {
+.Web,
+.Server,
+.App {
   height: 100%;
 }
+
 .Box1 {
   width: 25%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height: 40%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
   border-radius: 6px;
   margin: 15px;
   padding: 20px;
+  flex: 0 1 auto;
+  align-self: auto;
 }
 .Box1 > h4 {
   padding: 15px;
@@ -38,11 +42,13 @@
 
 @media screen and (max-width: 768px) {
   .About > p {
-    padding: auto;
+    /* padding-top: 20%; */
   }
 
   .About > .Expertise {
     flex-direction: column;
+    align-content: center;
+  align-items: center;
   }
   .Box1 {
     width: 65%;

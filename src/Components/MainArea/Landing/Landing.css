@@ -1,5 +1,5 @@
 .Landing {
-    background-image: url(/src/Assets/Images/front-view-desk-space.jpg);
+    background-image: url(/src/Assets/Images/bg2.jpeg);
     background-position: fixed;
     background-size:  100% auto;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
     font-family: 'Material Icons';
     font-weight: normal;
     font-style: normal;
-    font-size: 48px;  /* Preferred icon size */
+    font-size: 60px;  /* Preferred icon size */
     display: inline-block;
     line-height: 1;
     text-transform: none;
@@ -56,10 +56,12 @@
     font-weight: bold;
     font-size:1.5em;
     color:white;
-    text-shadow: 2px 2px 5px black;
-
+    text-shadow: 1px 1px 2px black;
+    
 }
 .body {
+    text-shadow: 1px 1px 2px black;
+    color:white;
     grid-area: body;
 }
 
