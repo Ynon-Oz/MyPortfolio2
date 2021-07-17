@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MyPortfolio2/static/css/main.6ca59f7d.chunk.css",
+    "main.css": "/MyPortfolio2/static/css/main.1860d505.chunk.css",
     "main.js": "/MyPortfolio2/static/js/main.e6828fee.chunk.js",
     "main.js.map": "/MyPortfolio2/static/js/main.e6828fee.chunk.js.map",
     "runtime-main.js": "/MyPortfolio2/static/js/runtime-main.7bf7a573.js",
@@ -10,16 +10,16 @@
     "static/js/3.c6003b75.chunk.js": "/MyPortfolio2/static/js/3.c6003b75.chunk.js",
     "static/js/3.c6003b75.chunk.js.map": "/MyPortfolio2/static/js/3.c6003b75.chunk.js.map",
     "index.html": "/MyPortfolio2/index.html",
-    "static/css/main.6ca59f7d.chunk.css.map": "/MyPortfolio2/static/css/main.6ca59f7d.chunk.css.map",
+    "static/css/main.1860d505.chunk.css.map": "/MyPortfolio2/static/css/main.1860d505.chunk.css.map",
     "static/js/2.51215031.chunk.js.LICENSE.txt": "/MyPortfolio2/static/js/2.51215031.chunk.js.LICENSE.txt",
-    "static/media/Landing.css": "/MyPortfolio2/static/media/front-view-desk-space.e916e2a3.jpg",
+    "static/media/Landing.css": "/MyPortfolio2/static/media/bg2.606a9944.jpeg",
     "static/media/github.22cfdd1c.png": "/MyPortfolio2/static/media/github.22cfdd1c.png",
     "static/media/linkedinlogo.a680cb8a.png": "/MyPortfolio2/static/media/linkedinlogo.a680cb8a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7bf7a573.js",
     "static/js/2.51215031.chunk.js",
-    "static/css/main.6ca59f7d.chunk.css",
+    "static/css/main.1860d505.chunk.css",
     "static/js/main.e6828fee.chunk.js"
   ]
 }
