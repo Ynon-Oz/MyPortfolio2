@@ -5,13 +5,13 @@ function Menu(): JSX.Element {
         <div className="Menu">
 			<ul>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#">Education</a>
+                    <a href="#skills">Education</a>
                 </li>
                 <li>
-                    <a href="#">Projects</a>
+                    <a href="#projects">Projects</a>
                 </li>
             </ul>
         </div>

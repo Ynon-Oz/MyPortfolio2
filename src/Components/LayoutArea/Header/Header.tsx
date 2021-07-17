@@ -3,10 +3,10 @@ import "./Header.css";
 
 function Header(): JSX.Element {
     return (
-        <div className="Header">
+        <div className="Header" id="main-header">
 			<h1>Ynon Oz</h1>
             <Menu/>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
         </div>
     );
 }

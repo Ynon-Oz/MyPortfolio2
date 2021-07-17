@@ -2,7 +2,7 @@ import "./Skills.css";
 
 function Skills(): JSX.Element {
     return (
-        <div className="Skills">
+        <div className="Skills" id="skills">
             <h3>Skills</h3>
 
             <div className="balloons">

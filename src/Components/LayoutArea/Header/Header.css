@@ -1,23 +1,17 @@
 .Header {
 	padding: 8px 0;
-	/* position: relative; */
 	display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
     align-items: center;
-	background-color: #515A5A70;
-	/* background: rgb(0,0,0); */
-	/* background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(255,255,255,0.8) 78%, rgba(228,228,228,0.8) 100%); */
+	background-color: lightgray;
 }
 .Header > h1{
 	color: #131313;
-	/* background: #e7e5e4; */
 	letter-spacing: .15em;
-	/* text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474, -3px 6px 1px #787777, -4px 8px 1px #7b7a7a; */
 	color: #131313;
-	/* background: #e7e5e4; */
 }
 .Header a{
 	color:black;
@@ -34,5 +28,8 @@
 	.Header a{
 		visibility:hidden;
 	}
-
+	.Header {
+		justify-content: center;
+		align-content: center;	
+	}
 }

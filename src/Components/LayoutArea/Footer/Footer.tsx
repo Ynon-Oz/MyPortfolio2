@@ -4,7 +4,7 @@ import git from '../../../Assets/Images/github.png';
 import linkedin from '../../../Assets/Images/linkedinlogo.png';
 function Footer(): JSX.Element {
     return (
-        <div className="Footer">
+        <div className="Footer" id="contact">
 			<h2>Contact</h2>
             <div className="contact">
             <a href="mailto:ynonoz@gmail.com" target="_blank"><img src={mail} alt="Email" /></a>

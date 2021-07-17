@@ -3,7 +3,7 @@ import Iframe from 'react-iframe'
 
 function Projects(): JSX.Element {
     return (
-        <div className="Projects">
+        <div className="Projects" id="projects">
             <h2>Projects</h2>
             <section className="Grid">
 
@@ -36,21 +36,23 @@ function Projects(): JSX.Element {
                     </h4>
                 </div>
                 <div className="mdc-card">
-                <Iframe url="https://www.google.com"
+                    <Iframe url="https://www.google.com"
                         id="myId" />
                     <h4>
                         Currency Exchange
                     </h4>
                 </div>
                 <div className="mdc-card">
-                <Iframe url=""
+                    <Iframe url=""
                         id="myId" />
                     <h4>
                         Empty
                     </h4>
                 </div>
-
             </section>
+            <a href="#main-header"><span className="material-icons-outlined">
+                expand_less
+            </span></a>
         </div>
     );
 }
