@@ -1,0 +1,12 @@
+
+
+.Menu >  ul > li {
+    list-style: none;
+    display:inline-block;
+}
+.Menu>ul>li>a {
+	color:black;
+    text-decoration:none;
+    text-align: center;
+  margin: 10px;
+}

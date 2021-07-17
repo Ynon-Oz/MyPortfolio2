@@ -1,0 +1,22 @@
+.Skills {
+}
+.Skills > .balloons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+}
+.Skills > .balloons > p {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: auto;
+  margin:5px;
+  height: 30vh;
+  width:30vh;
+  
+ 
+}

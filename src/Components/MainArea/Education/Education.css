@@ -1,0 +1,25 @@
+.Education {
+  margin-bottom: 50px;
+}
+
+.Education > div > .graduation {
+  border-radius: 15px;
+  display: inline-block;
+  text-decoration: none;
+
+  margin: 5px;
+  padding: 5px 10px;
+}
+.graduation {
+  color: black;
+  background-color: lightgray;
+}
+.graduation:hover {
+  color: white;
+  background-color: silver;
+}
+
+.Education > h2 {
+  padding: 30px;
+}
+
