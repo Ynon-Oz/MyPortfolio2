@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/MyPortfolio2/static/css/main.dc6badbf.chunk.css",
-    "main.js": "/MyPortfolio2/static/js/main.1b45d104.chunk.js",
-    "main.js.map": "/MyPortfolio2/static/js/main.1b45d104.chunk.js.map",
+    "main.css": "/MyPortfolio2/static/css/main.e635bccf.chunk.css",
+    "main.js": "/MyPortfolio2/static/js/main.c801f569.chunk.js",
+    "main.js.map": "/MyPortfolio2/static/js/main.c801f569.chunk.js.map",
     "runtime-main.js": "/MyPortfolio2/static/js/runtime-main.7bf7a573.js",
     "runtime-main.js.map": "/MyPortfolio2/static/js/runtime-main.7bf7a573.js.map",
-    "static/js/2.51215031.chunk.js": "/MyPortfolio2/static/js/2.51215031.chunk.js",
-    "static/js/2.51215031.chunk.js.map": "/MyPortfolio2/static/js/2.51215031.chunk.js.map",
+    "static/js/2.95f22e55.chunk.js": "/MyPortfolio2/static/js/2.95f22e55.chunk.js",
+    "static/js/2.95f22e55.chunk.js.map": "/MyPortfolio2/static/js/2.95f22e55.chunk.js.map",
     "static/js/3.c6003b75.chunk.js": "/MyPortfolio2/static/js/3.c6003b75.chunk.js",
     "static/js/3.c6003b75.chunk.js.map": "/MyPortfolio2/static/js/3.c6003b75.chunk.js.map",
     "index.html": "/MyPortfolio2/index.html",
-    "static/css/main.dc6badbf.chunk.css.map": "/MyPortfolio2/static/css/main.dc6badbf.chunk.css.map",
-    "static/js/2.51215031.chunk.js.LICENSE.txt": "/MyPortfolio2/static/js/2.51215031.chunk.js.LICENSE.txt",
+    "static/css/main.e635bccf.chunk.css.map": "/MyPortfolio2/static/css/main.e635bccf.chunk.css.map",
+    "static/js/2.95f22e55.chunk.js.LICENSE.txt": "/MyPortfolio2/static/js/2.95f22e55.chunk.js.LICENSE.txt",
+    "static/media/burgers.005a6ba2.png": "/MyPortfolio2/static/media/burgers.005a6ba2.png",
+    "static/media/business page.6ea0f022.png": "/MyPortfolio2/static/media/business page.6ea0f022.png",
     "static/media/Landing.css": "/MyPortfolio2/static/media/creative-flat-lay-photo-workspace-desk.ceb0c0dd.jpg",
+    "static/media/currency.838c7e7a.png": "/MyPortfolio2/static/media/currency.838c7e7a.png",
     "static/media/github.22cfdd1c.png": "/MyPortfolio2/static/media/github.22cfdd1c.png",
-    "static/media/linkedinlogo.a680cb8a.png": "/MyPortfolio2/static/media/linkedinlogo.a680cb8a.png"
+    "static/media/linkedinlogo.a680cb8a.png": "/MyPortfolio2/static/media/linkedinlogo.a680cb8a.png",
+    "static/media/messi.103721e3.png": "/MyPortfolio2/static/media/messi.103721e3.png",
+    "static/media/under-construction-page.c5fcabd3.jpg": "/MyPortfolio2/static/media/under-construction-page.c5fcabd3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7bf7a573.js",
-    "static/js/2.51215031.chunk.js",
-    "static/css/main.dc6badbf.chunk.css",
-    "static/js/main.1b45d104.chunk.js"
+    "static/js/2.95f22e55.chunk.js",
+    "static/css/main.e635bccf.chunk.css",
+    "static/js/main.c801f569.chunk.js"
   ]
 }
