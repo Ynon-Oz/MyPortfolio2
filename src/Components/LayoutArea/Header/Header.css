@@ -26,10 +26,14 @@
 		padding: 3px 0;
 	}
 	.Header a{
-		visibility:hidden;
+		/* visibility:hidden; */
+		display:none;
 	}
 	.Header {
 		justify-content: center;
 		align-content: center;	
+	}
+	.Header h1{
+		text-align: center;
 	}
 }

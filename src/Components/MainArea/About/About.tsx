@@ -5,12 +5,14 @@ function About(): JSX.Element {
     return (
         <div className="About" id="about">
             <h2>About Me</h2><br></br>
-            <p>
-                Hi, my name is Ynon and I am a Full-Stack Developer and certified Mechanical practical engineer recently John Bryce
-                graduated (Java full-stack) seeking to transfer my passion for technology, analytical problem solving and team player skills
-                to Java software development.
-            </p>
-            <MyPortrait />
+            <div className="About-header">
+                <p>
+                    Hi, my name is Ynon and I am a Full-Stack Developer and certified Mechanical practical engineer recently John Bryce
+                    graduated (Java full-stack) seeking to transfer my passion for technology, analytical problem solving and team player skills
+                    to Java software development.
+                </p>
+                <MyPortrait />
+            </div>
             <h3>My Expertise</h3>
             <div className="Expertise">
                 <div className="Box1 Server">
