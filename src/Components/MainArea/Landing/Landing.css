@@ -1,17 +1,19 @@
 .Landing {
-    background-image: url(/src/Assets/Images/bg.jpg);
+    background-image: url(/src/Assets/Images/bg1.jpg);
     background-position: center;
     background-size:  cover ;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
-.Landing > p{
+#typed{
     display:block;
-    justify-content:center;
-    
+    /* justify-content:center; */
+    color:white;
     padding:10%;
+    margin-top:30px;
 }
+
 .material-icons-outlined {
     font-family: 'Material Icons';
     font-weight: normal;

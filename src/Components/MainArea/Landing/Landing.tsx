@@ -5,9 +5,9 @@ function Landing(): JSX.Element {
         <div className="Landing">
             <section className='myGrid'>
                 <div className='header'>
-                    {/* <p className="font-effect-outline">
-                        Hi, my name is Ynon. <br></br> I am a Full-Stack Developer and certified <br></br>Mechanical practical engineer
-                    </p> */}
+                    <p className="font-effect-outline" id="typed">
+                        Hi, my name is Ynon. <br></br> I am a Full-Stack Developer && certified <br></br>Mechanical practical engineer
+                    </p>
 
                 </div>
                 <div className='body'>

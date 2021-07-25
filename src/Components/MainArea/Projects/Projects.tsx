@@ -67,9 +67,9 @@ function Projects(): JSX.Element {
                             <p>
                                 a vanilla stack of business web styling
                             </p>
-                            {/* <a href="#">Link<span className="material-icons-outlined">
-                                link
-                            </span></a> */}
+                            <a href="#" className="project-link-icon"><span className="material-icons-outlined">
+                                launch
+                            </span></a>
                         </div>
                     </div>
                 </div>
