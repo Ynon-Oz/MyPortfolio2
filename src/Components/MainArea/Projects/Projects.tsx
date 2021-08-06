@@ -6,6 +6,7 @@ import "./Projects.css";
 import burgers from "../../../Assets/Images/burgers.png"
 import business from "../../../Assets/Images/business page.png"
 import currency from "../../../Assets/Images/currency.png"
+import coupons from "../../../Assets/Images/shopping-shannon-springs-2.jpg"
 import messi from "../../../Assets/Images/messi.png"
 import construction from "../../../Assets/Images/under-construction-page.jpg"
 // import { useState } from "react";
@@ -22,7 +23,7 @@ function Projects(): JSX.Element {
                 <div className="flip-box">
                     <div className="flip-box-inner">
                         <div className="flip-box-front">
-                            <img src={construction} alt="" />
+                            <img src={coupons} alt="" />
 
                             <h3>
                                 Coupon System
@@ -33,6 +34,9 @@ function Projects(): JSX.Element {
                             <p>
                                 A Fullstack project contains - backend core built using Java with spring boot technologies and frontend using React library
                             </p>
+                            <a href="https://github.com/Ynon-Oz/couponation-ui" target="_blank" className="project-link-icon CBTN-dark">GitHub(ReactUI)</a>
+                            <a href="https://github.com/Ynon-Oz/CouponsMavenProject" target="_blank" className="project-link-icon CBTN-dark">GitHub(Java)</a>
+                            
                         </div>
                     </div>
                 </div>
@@ -50,6 +54,7 @@ function Projects(): JSX.Element {
                             <p>
                                 Burger Builder and draw on screen using DOM manipulation
                             </p>
+                            <a href="https://github.com/Ynon-Oz/YnonBurger" target="_blank" className="project-link-icon CBTN-dark">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -67,9 +72,7 @@ function Projects(): JSX.Element {
                             <p>
                                 a vanilla stack of business web styling
                             </p>
-                            <a href="#" className="project-link-icon"><span className="material-icons-outlined">
-                                launch
-                            </span></a>
+                            <a href="https://github.com/Ynon-Oz/MorexSite2" target="_blank" className="project-link-icon CBTN-dark">GitHub</a>
                         </div>
                     </div>
                 </div>
@@ -83,21 +86,25 @@ function Projects(): JSX.Element {
                             </h3>
                         </div>
                         <div className="flip-box-back">
-                            <h4>Back Side</h4>
+                            <h4>Leo Mesi Fan Site</h4>
+                            <p>Currently under construction</p>
                         </div>
                     </div>
                 </div>
                 <div className="flip-box">
                     <div className="flip-box-inner">
                         <div className="flip-box-front">
-                            <img src={currency} alt="" />
+                            <img src={construction} alt="" />
 
                             <h3>
                                 Currency Exchange
                             </h3>
                         </div>
                         <div className="flip-box-back">
-                            <h4>Back Side</h4>
+                            <h4>Currency Exchange</h4>
+                            <p>
+                                Currency Exchange REST & REST Template API
+                            </p>
                         </div>
                     </div>
                 </div>

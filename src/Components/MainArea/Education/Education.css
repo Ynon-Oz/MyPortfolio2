@@ -3,18 +3,17 @@
 }
 
 .Education > div > .graduation {
-  border-radius: 10px;
   display: inline-block;
+  border-radius: 10px;
   text-decoration: none;
 
   margin: 5px;
   padding: 5px 10px;
-}
-.graduation {
   color: white;
   background-color: black;
 }
-.graduation:hover {
+
+.Education > div > .graduation:hover {
   color: black;
   background-color: silver;
 }

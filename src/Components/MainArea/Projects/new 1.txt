@@ -1,0 +1,28 @@
+https://github.com/Ynon-Oz/couponation-ui
+
+https://github.com/Ynon-Oz/CouponsMavenProject
+
+https://github.com/Ynon-Oz/MorexSite2
+
+
+
+
+create-react-app kittens --template typescript
+
+create cc LayoutArea/Footer
+create cc LayoutArea/Footer --props --state
+create cc LayoutArea/Footer -p -s
+create cc LayoutArea/Footer --props
+create cc LayoutArea/Footer -p
+create cc LayoutArea/Footer --state
+create cc LayoutArea/Footer -s 
+
+npm i react-router-dom @types/react-router-dom
+npm i axios
+npm i @material-ui/core
+npm i @material-ui/icons
+npm i react-hook-form
+npm i notyf
+npm i redux
+
+npm start

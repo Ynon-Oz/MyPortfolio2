@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./Education.css";
 
 function Education(): JSX.Element {
@@ -7,7 +8,7 @@ function Education(): JSX.Element {
             <div className="course">
             <h4>John Bryce Academy, Java full-stack Course</h4>
                     <h5>Jan 2019 - Dec 2020</h5>
-            <a href="#" className="graduation">Graduation Project</a><br></br>
+            <NavLink to="/graduate" className="graduation CBTN-dark">Graduation Project</NavLink><br></br>
 
             </div>
             <span className="material-icons-outlined">

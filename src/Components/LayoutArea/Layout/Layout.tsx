@@ -1,20 +1,25 @@
+import { BrowserRouter } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Main from "../Main/Main";
+import Routing from "../Routing/Routing";
 import "./Layout.css";
 
 function Layout(): JSX.Element {
     return (
         <div className="Layout">
-			<header>
-                <Header/>
-            </header>
-            <section>
-                <Main/>
-            </section>
-            <footer>
-                <Footer/>
-            </footer>
+
+                <header>
+                    <Header />
+                </header>
+            <BrowserRouter>
+                <main>
+                    <Main />
+                </main>
+            </BrowserRouter>
+                <footer>
+                    <Footer />
+                </footer>
         </div>
     );
 }
