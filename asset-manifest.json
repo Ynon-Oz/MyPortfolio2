@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/MyPortfolio2/static/css/main.65a18903.chunk.css",
-    "main.js": "/MyPortfolio2/static/js/main.3161d332.chunk.js",
-    "main.js.map": "/MyPortfolio2/static/js/main.3161d332.chunk.js.map",
-    "runtime-main.js": "/MyPortfolio2/static/js/runtime-main.cff56a1c.js",
-    "runtime-main.js.map": "/MyPortfolio2/static/js/runtime-main.cff56a1c.js.map",
-    "static/js/2.25442c46.chunk.js": "/MyPortfolio2/static/js/2.25442c46.chunk.js",
-    "static/js/2.25442c46.chunk.js.map": "/MyPortfolio2/static/js/2.25442c46.chunk.js.map",
-    "static/js/3.5d02c02b.chunk.js": "/MyPortfolio2/static/js/3.5d02c02b.chunk.js",
-    "static/js/3.5d02c02b.chunk.js.map": "/MyPortfolio2/static/js/3.5d02c02b.chunk.js.map",
+    "main.css": "/MyPortfolio2/static/css/main.813d861f.chunk.css",
+    "main.js": "/MyPortfolio2/static/js/main.142f09be.chunk.js",
+    "main.js.map": "/MyPortfolio2/static/js/main.142f09be.chunk.js.map",
+    "runtime-main.js": "/MyPortfolio2/static/js/runtime-main.bd563184.js",
+    "runtime-main.js.map": "/MyPortfolio2/static/js/runtime-main.bd563184.js.map",
+    "static/js/2.12e8b417.chunk.js": "/MyPortfolio2/static/js/2.12e8b417.chunk.js",
+    "static/js/2.12e8b417.chunk.js.map": "/MyPortfolio2/static/js/2.12e8b417.chunk.js.map",
+    "static/js/3.6b1a2d57.chunk.js": "/MyPortfolio2/static/js/3.6b1a2d57.chunk.js",
+    "static/js/3.6b1a2d57.chunk.js.map": "/MyPortfolio2/static/js/3.6b1a2d57.chunk.js.map",
     "index.html": "/MyPortfolio2/index.html",
-    "static/css/main.65a18903.chunk.css.map": "/MyPortfolio2/static/css/main.65a18903.chunk.css.map",
-    "static/js/2.25442c46.chunk.js.LICENSE.txt": "/MyPortfolio2/static/js/2.25442c46.chunk.js.LICENSE.txt",
+    "static/css/main.813d861f.chunk.css.map": "/MyPortfolio2/static/css/main.813d861f.chunk.css.map",
+    "static/js/2.12e8b417.chunk.js.LICENSE.txt": "/MyPortfolio2/static/js/2.12e8b417.chunk.js.LICENSE.txt",
     "static/media/Landing.css": "/MyPortfolio2/static/media/bg1.52b7094b.jpg",
     "static/media/burgers.005a6ba2.png": "/MyPortfolio2/static/media/burgers.005a6ba2.png",
     "static/media/business page.6ea0f022.png": "/MyPortfolio2/static/media/business page.6ea0f022.png",
@@ -23,9 +23,9 @@
     "static/media/under-construction-page.c5fcabd3.jpg": "/MyPortfolio2/static/media/under-construction-page.c5fcabd3.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cff56a1c.js",
-    "static/js/2.25442c46.chunk.js",
-    "static/css/main.65a18903.chunk.css",
-    "static/js/main.3161d332.chunk.js"
+    "static/js/runtime-main.bd563184.js",
+    "static/js/2.12e8b417.chunk.js",
+    "static/css/main.813d861f.chunk.css",
+    "static/js/main.142f09be.chunk.js"
   ]
 }
