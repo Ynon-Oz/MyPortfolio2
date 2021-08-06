@@ -1,3 +1,15 @@
 .Page404 {
-	
+}
+.Page404 > img{
+	height:250px;
+}
+
+.BackBTN{
+    background-color: lightgrey;
+    border-radius:10px;
+    border: solid 2px black;
+}
+.BackBTN:hover{
+    background-color: white;
+color:lightgray;
 }

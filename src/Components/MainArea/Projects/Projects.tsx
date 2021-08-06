@@ -1,7 +1,6 @@
 import "./Projects.css";
-// import Iframe from 'react-iframe'
-// import React, {useState} from "react";
-// import ReactCardFlip from 'react-card-flip';
+
+
 
 import burgers from "../../../Assets/Images/burgers.png"
 import business from "../../../Assets/Images/business page.png"
@@ -9,7 +8,6 @@ import currency from "../../../Assets/Images/currency.png"
 import coupons from "../../../Assets/Images/shopping-shannon-springs-2.jpg"
 import messi from "../../../Assets/Images/messi.png"
 import construction from "../../../Assets/Images/under-construction-page.jpg"
-// import { useState } from "react";
 
 function Projects(): JSX.Element {
 
@@ -36,7 +34,7 @@ function Projects(): JSX.Element {
                             </p>
                             <a href="https://github.com/Ynon-Oz/couponation-ui" target="_blank" className="project-link-icon CBTN-dark">GitHub(ReactUI)</a>
                             <a href="https://github.com/Ynon-Oz/CouponsMavenProject" target="_blank" className="project-link-icon CBTN-dark">GitHub(Java)</a>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -130,7 +128,5 @@ function Projects(): JSX.Element {
         </div>
     );
 }
-
-
 
 export default Projects;

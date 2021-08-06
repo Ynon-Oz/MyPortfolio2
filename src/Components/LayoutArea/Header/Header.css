@@ -25,7 +25,7 @@
 	.Header {
 		padding: 3px 0;
 	}
-	.Header a{
+	.Header> .Menu,.Header> .ContactLink{
 		/* visibility:hidden; */
 		display:none;
 	}
@@ -33,7 +33,7 @@
 		justify-content: center;
 		align-content: center;	
 	}
-	.Header h1{
+	.Header .HeaderName{
 		text-align: center;
 	}
 }

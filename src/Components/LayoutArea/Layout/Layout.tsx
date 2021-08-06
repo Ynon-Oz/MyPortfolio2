@@ -9,17 +9,17 @@ function Layout(): JSX.Element {
     return (
         <div className="Layout">
 
+            <BrowserRouter>
                 <header>
                     <Header />
                 </header>
-            <BrowserRouter>
                 <main>
-                    <Main />
+                    <Routing />
                 </main>
-            </BrowserRouter>
                 <footer>
                     <Footer />
                 </footer>
+            </BrowserRouter>
         </div>
     );
 }
