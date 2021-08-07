@@ -46,7 +46,7 @@ function Education(): JSX.Element {
                 including different functionality for companies, clients,
                 and site admin; user authentication and authorization.
                 The system was built in 3 phases: system core (JAVA),
-                API and client side using Spring, JPA, and Angular 8 (SPA).
+                API and client side using Spring, JPA, and React (SPA).
                 During the project, migration was done from JDBC to JPA
 
             </p>

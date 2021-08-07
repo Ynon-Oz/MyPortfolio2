@@ -6,6 +6,7 @@ function About(): JSX.Element {
         <div className="About" id="about">
             <h2>About Me</h2><br></br>
             <div className="About-header">
+       
                 <p>
                     Hi, my name is Ynon and I am a Full-Stack Developer and certified Mechanical practical engineer recently John Bryce
                     graduated (Java full-stack) seeking to transfer my passion for technology, analytical problem solving and team player skills
