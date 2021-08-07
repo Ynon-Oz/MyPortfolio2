@@ -53,6 +53,7 @@ function Education(): JSX.Element {
             <ColorButton onClick={goToCouponBackGit}  className="ColorButton" variant="contained" color="primary" startIcon={<GitHubIcon />}   >
                     BackEnd
                 </ColorButton>
+                <span>  </span>
                 <ColorButton onClick={goToCouponFrontGit} className="ColorButton" variant="contained" color="primary" startIcon={<GitHubIcon />}   >
                     FrontEnd
                 </ColorButton>

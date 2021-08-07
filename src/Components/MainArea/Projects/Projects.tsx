@@ -110,7 +110,7 @@ function Projects(): JSX.Element {
                         <div className="flip-box-back">
                             <h4>Leo Mesi Fan Site</h4>
                             <p>Currently under construction</p>
-                            <ColorFab size="small" variant="extended" color="primary" aria-label="add" >
+                            <ColorFab  disabled size="small" variant="extended" color="primary" aria-label="add" >
                                 <DescriptionOutlinedIcon />Info 
                             </ColorFab>
                         </div>
@@ -130,7 +130,7 @@ function Projects(): JSX.Element {
                             <p>
                                 Currency Exchange REST & REST Template API
                             </p>
-                            <ColorFab size="small" variant="extended" color="primary" aria-label="add" >
+                            <ColorFab disabled size="small" variant="extended" color="primary" aria-label="add" >
                                 <DescriptionOutlinedIcon />Info 
                             </ColorFab>
                         </div>

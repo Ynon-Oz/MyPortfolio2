@@ -31,11 +31,15 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    height: 50vh;
+    /* height: 50vh; */
     margin-top:50px ;
     grid-gap: 1px;
    
     
+  }
+  .Skills > .balloons >div {
+    height: 20vh;
+    width: 20vh;
   }
  
 }
