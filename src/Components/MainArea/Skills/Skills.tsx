@@ -6,10 +6,10 @@ function Skills(): JSX.Element {
             <h3>Skills</h3>
 
             <div className="balloons">
-                <p>Java <br></br>TypeScript <br></br> JavaScript</p>
-                <p>Spring Boot/MVC <br></br> Hibernate (JPA) <br></br> REST</p>
-                <p>React <br></br> Angular 8 <br></br> HTML <br></br> CSS</p>
-                <p>MySQL</p>
+                <div id="Skill1"><p >Java <br></br>TypeScript <br></br> JavaScript</p></div>
+                <div id="Skill2"><p>Spring Boot/MVC <br></br> Hibernate (JPA) <br></br> REST</p></div>
+                <div id="Skill3"><p>React <br></br> Angular <br></br> HTML <br></br> CSS</p></div>
+                <div id="Skill4"><p>MySQL</p></div>
             </div>
 
 

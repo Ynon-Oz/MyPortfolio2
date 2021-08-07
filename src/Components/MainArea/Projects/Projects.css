@@ -26,7 +26,19 @@
   opacity: 1;
 } */
 
-
+.flip-box-back{
+  display: grid;
+  grid: 
+      "." 1fr
+"." 2fr
+"." 1fr
+      / 1fr;
+  grid-gap: 1px;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
 .material-icons-outlined {
   font-family: "Material Icons";
   font-weight: normal;

@@ -7,10 +7,10 @@ import { grey , purple } from '@material-ui/core/colors';
 import Modal from '@material-ui/core/Modal';
 import { Button } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 
 function Education(): JSX.Element {
-
     const ColorButton = withStyles((theme: Theme) => ({
         root: {
             color: theme.palette.getContrastText(grey[800]),
@@ -45,13 +45,19 @@ function Education(): JSX.Element {
                 coupon platform that enables suppliers to advertise and sell their coupons,
                 including different functionality for companies, clients,
                 and site admin; user authentication and authorization.
-                The system was built in 3 phases: system core (JAVA),
+                The system was built in phases: system core (JAVA),
                 API and client side using Spring, JPA, and React (SPA).
-                During the project, migration was done from JDBC to JPA
+                
 
             </p>
-            <Button variant="outlined" color="primary" href="https://github.com/Ynon-Oz/CouponsMavenProject" target="_blank">Graduation Project(Spring Boot)</Button>
-            <Button variant="outlined" color="primary" href="https://github.com/Ynon-Oz/couponation-ui" target="_blank">Graduation Project(React)</Button>
+            <ColorButton onClick={goToCouponBackGit}  className="ColorButton" variant="contained" color="primary" startIcon={<GitHubIcon />}   >
+                    BackEnd
+                </ColorButton>
+                <ColorButton onClick={goToCouponFrontGit} className="ColorButton" variant="contained" color="primary" startIcon={<GitHubIcon />}   >
+                    FrontEnd
+                </ColorButton>
+            {/* <Button variant="outlined" color="primary" href="https://github.com/Ynon-Oz/CouponsMavenProject" target="_blank">Graduation Project(Spring Boot)</Button>
+            <Button variant="outlined" color="primary" href="https://github.com/Ynon-Oz/couponation-ui" target="_blank">Graduation Project(React)</Button> */}
         </div>
     );
 
@@ -89,7 +95,12 @@ function Education(): JSX.Element {
         </div>
     );
 }
-
+const goToCouponBackGit = ( ) => {
+    window.open("https://github.com/Ynon-Oz/CouponsMavenProject");
+  };
+  const goToCouponFrontGit = ( ) => {
+    window.open("https://github.com/Ynon-Oz/couponation-ui");
+  };
 
 function getModalStyle() {
     const top = 50;
@@ -110,6 +121,7 @@ const useStyles = makeStyles((theme: Theme) =>
             width: 400,
             backgroundColor: theme.palette.background.paper,
             border: '2px solid #000',
+            borderRadius:'10px',
             boxShadow: theme.shadows[5],
             padding: theme.spacing(2, 4, 3),
         },
