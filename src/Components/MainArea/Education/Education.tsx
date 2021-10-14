@@ -69,7 +69,7 @@ function Education(): JSX.Element {
         <div className="Education">
             <h2 >Education</h2>
             <div className="course">
-                <h4>John Bryce Academy, Java full-stack Course</h4>
+                <h4>John Bryce Academy, Java Full-Stack Course</h4>
                 <h5>Jan 2019 - Dec 2020</h5>
                 <ColorButton variant="contained" color="primary" startIcon={<SchoolIcon />} onClick={handleOpen}>
                     Graduation Project

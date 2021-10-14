@@ -1,18 +1,6 @@
 import "./GraduateProject.css";
 
-// function GraduateProject(): JSX.Element {
-//     return (
-//         <div className="GraduateProject">
 
-//         </div>
-//     );
-// }
-
-// export default GraduateProject;
-
-
-
-// ----------------------
 
 import React from 'react';
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles';
@@ -51,7 +39,6 @@ export default function SimpleModal() {
     const classes = useStyles();
     const history = useHistory();
 
-    // getModalStyle is not a pure function, we roll the style only on the first render
     const [modalStyle] = React.useState(getModalStyle);
     const [open, setOpen] = React.useState(false);
 

@@ -8,9 +8,9 @@ function About(): JSX.Element {
             <div className="About-header">
        
                 <p>
-                    Hi, my name is Ynon and I am a Full-Stack Developer and certified Mechanical practical engineer recently John Bryce
-                    graduated (Java full-stack) seeking to transfer my passion for technology, analytical problem solving and team player skills
-                    to Java software development.
+                    Hi, my name is Ynon and I am a Full-Stack Developer, recent graduate from John Bryce Academy in Java Spring Boot Applications | React | Angular | Single Page Applications (SPA) | MySQL | Cloud Microservices | REST APIs.
+I am a highly motivated quick learner and a team player with passion for technology. Background in mechanical engineering with a proven track record of analytical problem solving.
+
                 </p>
                 <MyPortrait />
             </div>
@@ -18,7 +18,7 @@ function About(): JSX.Element {
             <div className="Expertise">
                 <div className="Box1 Server">
                     <h4>Java Server side development</h4>
-                    <p>Java development of servers using Spring framework, REST Controller API with all business logic and services. familiar with  design patterns(MVC, Singleton, factory, proxy), MySQL Database, Authentication and security features OOP and more.</p>
+                    <p>Java development of servers using Spring framework, REST Controller API with all business logic and services. familiar with  design patterns(MVC, Singleton, factory, proxy, etc), MySQL Database, Authentication and Authorization security features OOP and more.</p>
                     <span className="material-icons-outlined">
                         cloud
                     </span>

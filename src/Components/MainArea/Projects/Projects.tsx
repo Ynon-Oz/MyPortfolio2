@@ -12,6 +12,7 @@ import currency from "../../../Assets/Images/currency.png"
 import coupons from "../../../Assets/Images/shopping-shannon-springs-2.jpg"
 import messi from "../../../Assets/Images/messi.png"
 import construction from "../../../Assets/Images/under-construction-page.jpg"
+import microservices from "../../../Assets/Images/Global cloud microservices market.jpg"
 import Modal from "../../SharedArea/Modal/Modal";
 import GitHubIcon from '@material-ui/icons/GitHub';
 function Projects(): JSX.Element {
@@ -54,6 +55,44 @@ function Projects(): JSX.Element {
                             {/* <a href="https://github.com/Ynon-Oz/couponation-ui" target="_blank" className="project-link-icon CBTN-dark">GitHub(ReactUI)</a>
                             <a href="https://github.com/Ynon-Oz/CouponsMavenProject" target="_blank" className="project-link-icon CBTN-dark">GitHub(Java)</a> */}
 
+                        </div>
+                    </div>
+                </div>
+                <div className="flip-box">
+                    <div className="flip-box-inner">
+                        <div className="flip-box-front">
+                            <img src={microservices} alt="" />
+
+                            <h3>
+                                Cloud Microservices
+                            </h3>
+                        </div>
+                        <div className="flip-box-back">
+                            <h4>Cloud Microservices</h4>
+                            <p>Microservices ecosystem</p>
+                            <ColorFab size="small" variant="circular" color="primary" aria-label="add" href="https://github.com/Ynon-Oz/spring-cloud-microservices">
+                                <GitHubIcon /> 
+                            </ColorFab>
+                        </div>
+                    </div>
+                </div>
+                <div className="flip-box">
+                    <div className="flip-box-inner">
+                        <div className="flip-box-front">
+                            <img src={construction} alt="" />
+
+                            <h3>
+                                Currency Exchange
+                            </h3>
+                        </div>
+                        <div className="flip-box-back">
+                            <h4>Currency Exchange</h4>
+                            <p>
+                                Currency Exchange REST & REST Template API
+                            </p>
+                            <ColorFab disabled size="small" variant="extended" color="primary" aria-label="add" >
+                                <DescriptionOutlinedIcon />Info 
+                            </ColorFab>
                         </div>
                     </div>
                 </div>
@@ -116,44 +155,8 @@ function Projects(): JSX.Element {
                         </div>
                     </div>
                 </div>
-                <div className="flip-box">
-                    <div className="flip-box-inner">
-                        <div className="flip-box-front">
-                            <img src={construction} alt="" />
-
-                            <h3>
-                                Currency Exchange
-                            </h3>
-                        </div>
-                        <div className="flip-box-back">
-                            <h4>Currency Exchange</h4>
-                            <p>
-                                Currency Exchange REST & REST Template API
-                            </p>
-                            <ColorFab disabled size="small" variant="extended" color="primary" aria-label="add" >
-                                <DescriptionOutlinedIcon />Info 
-                            </ColorFab>
-                        </div>
-                    </div>
-                </div>
-                <div className="flip-box">
-                    <div className="flip-box-inner">
-                        <div className="flip-box-front">
-                            <img src="..." alt="" />
-
-                            <h3>
-                                Empty
-                            </h3>
-                        </div>
-                        <div className="flip-box-back">
-                            <h4>Empty</h4>
-                            {/* <p></p>
-                            <ColorFab size="small" variant="extended" color="primary" aria-label="add" >
-                                <DescriptionOutlinedIcon />Info 
-                            </ColorFab> */}
-                        </div>
-                    </div>
-                </div>
+            
+                
             </section>
 
             <a href="#main-header"><span className="material-icons-outlined">
